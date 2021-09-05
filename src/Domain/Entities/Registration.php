@@ -6,9 +6,9 @@ namespace App\Domain\Entities;
 use App\Domain\ValueObjects\Cpf;
 use App\Domain\ValueObjects\Email;
 use DateTimeInterface;
-//Final previene de la extensión o del overriding en métodos para mantener
-//el desacoplamiento de la arquitectura, ya que si alguien externo puede extender mi clase de
-//dominio, entonces se pierde el dependency inversion
+/*Final previene de la extensión o del overriding en métodos para mantener
+el desacoplamiento de la arquitectura, ya que si alguien externo puede extender mi clase de
+dominio, entonces se pierde el dependency inversion*/
 final class Registration
 {
     private string $name;
@@ -106,12 +106,6 @@ final class Registration
         $this->registrationAt = $registrationAt;
         return $this;
     }
-
-
-
-
-
-
 
 
 

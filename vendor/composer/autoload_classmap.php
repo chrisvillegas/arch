@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Domain\\Entities\\Registration' => $baseDir . '/src/Domain/Entities/Registration.php',
+    'App\\Domain\\ValueObjects\\Cpf' => $baseDir . '/src/Domain/ValueObjects/Cpf.php',
+    'App\\Domain\\ValueObjects\\Email' => $baseDir . '/src/Domain/ValueObjects/Email.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

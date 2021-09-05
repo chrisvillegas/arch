@@ -21,6 +21,9 @@ class ComposerStaticInit91832ccaa6780275454715b8d219abd1
     );
 
     public static $classMap = array (
+        'App\\Domain\\Entities\\Registration' => __DIR__ . '/../..' . '/src/Domain/Entities/Registration.php',
+        'App\\Domain\\ValueObjects\\Cpf' => __DIR__ . '/../..' . '/src/Domain/ValueObjects/Cpf.php',
+        'App\\Domain\\ValueObjects\\Email' => __DIR__ . '/../..' . '/src/Domain/ValueObjects/Email.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
