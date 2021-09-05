@@ -1,0 +1,19 @@
+{
+  "name": "innocean/clean-arch",
+  "description": "clean example",
+  "authors": [
+    {
+      "name": "Christopher Villegas",
+      "email": "cflores@innoceanmexico.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
