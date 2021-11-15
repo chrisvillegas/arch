@@ -40,5 +40,9 @@ final class Cpf
         }
         return true;
     }
+    public function __toString(): string
+    {
+       return $this->cpf;
+    }
 
 }
